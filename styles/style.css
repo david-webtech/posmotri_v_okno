@@ -140,12 +140,6 @@ ol {
   overflow: hidden;
   line-height: 100%;
   padding: 2px 0 0 2px;
-  margin-bottom: 6px;
-  /* 
-  Указал межстрочный интервал. 
-  Было взято значение из макета (6px).
-  Сверьте значение в верстке со значением в макете.
-  */
 }
 
 .content__video-card-description {
@@ -153,6 +147,12 @@ ol {
   font-weight: 400;
   color: #fff;
   padding: 2px 0 0 2px;
+  line-height: 17px;
+  /* 
+  Межстрочный интервал, указанный 
+  при помощи line-height со значением, которое
+  даст нужное растояние сверянное через расширение PerfectPixel.
+  */
 }
 
 .visually-hidden {
